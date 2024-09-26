@@ -1,0 +1,8 @@
+/* Duplicate and move this css into vanilla and react before putting them into their servers */
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
