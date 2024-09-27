@@ -6,6 +6,8 @@
 }
 
 .board {
+  max-width: 96px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  margin: 0 auto;
 }
