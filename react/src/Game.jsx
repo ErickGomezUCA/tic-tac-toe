@@ -11,6 +11,22 @@ export default function Game() {
     setXIsNext(!xIsNext);
   }
 
+  function jumpTo(nextMove) {
+    // TODO
+  }
+
+  const moves = history.map((squares, move) => {
+    let description;
+
+    description = moves > 0 ? `Go to move # ${move}` : `Go to game start`;
+
+    return (
+      <li key={move}>
+        <button onClick={() => jumpTo(move)}>{description}</button>
+      </li>
+    );
+  });
+
   return (
     <div className="game">
       <div className="game-board">
