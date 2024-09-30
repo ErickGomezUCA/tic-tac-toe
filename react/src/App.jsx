@@ -1,9 +1,7 @@
 import "./App.css";
-import Game from "./Board";
+import Game from "./Game";
 
 function App() {
-  // const [count, setCount] = useState(0);
-
   return (
     <>
       <Game />
